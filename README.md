@@ -4,7 +4,7 @@ The naive Bayes model is probably the most common Bayesian network model used in
 A deterministic prediction can then be obtained by choosing the most likely class.
 
 ## The MNIST Dataset
-Two files ```mnist_train.csv``` and ```mnist_test.csv``` are needed to run the code. They're too large to be  
+Two files ```mnist_train.csv``` and ```mnist_test.csv``` are needed to run the code. They're too large to be uploaded and can be downloaded [here](https://www.kaggle.com/oddrationale/mnist-in-csv). 
 
 ## Run
 ```
