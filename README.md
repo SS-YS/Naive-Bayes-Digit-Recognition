@@ -1,5 +1,5 @@
 ## Naive Bayes
-The naive Bayes model is probably the most common Bayesian network model used in machine learning. The model is “naive” because it assumes that the attributes are conditionally independent of each other given the class. With observed attribute values x1, x2, ..., xn, the probability of each class C is given by:
+The [naive Bayes](https://en.wikipedia.org/wiki/Naive_Bayes_classifier) model is probably the most common Bayesian network model used in machine learning. The model is “naive” because it assumes that the attributes are conditionally independent of each other given the class. With observed attribute values x1, x2, ..., xn, the probability of each class C is given by:
 
 A deterministic prediction can then be obtained by choosing the most likely class.
 
