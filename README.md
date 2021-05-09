@@ -1,9 +1,14 @@
 ## Naive Bayes
 The [naive Bayes](https://en.wikipedia.org/wiki/Naive_Bayes_classifier) model is probably the most common Bayesian network model used in machine learning. The model is “naive” because it assumes that the attributes are conditionally independent of each other given the class. With observed attribute values x1, x2, ..., xn, the probability of each class C is given by:
 
+<img src="screenshots/formula.png" width="350">
+
 A deterministic prediction can then be obtained by choosing the most likely class.
 
 ## The MNIST Dataset
+
+<img src="screenshots/mnist.png" width="450">
+
 Two files ```mnist_train.csv``` and ```mnist_test.csv``` are needed to run the code. They're too large to be uploaded and can be downloaded [here](https://www.kaggle.com/oddrationale/mnist-in-csv). 
 
 ## Run
@@ -40,7 +45,9 @@ Accumulative precision: 1.0
           :@@@:             
           =@@%.             
           =@#               
-                            
+              
+              
+              
 Press enter to continue.
 No.2
 Predict: 2
@@ -71,15 +78,12 @@ Accumulative precision: 1.0
          ====*@@@+==.       
                             
                             
-                            
-                            
-                            
+                                                                                
 Press enter to continue.
 No.3
 Predict: 1
 Actual: 1
-Accumulative precision: 1.0
-                            
+Accumulative precision: 1.0                            
                             
                             
                             
@@ -111,14 +115,14 @@ Accumulative precision: 1.0
 ...
 
 
+
 No.9998
 Predict: 9
 Actual: 4
 Accumulative precision: 0.8450690138027606
                             
                             
-                                                                                    
-                            
+                                                                                                                
             %%.    =@+      
            =@%.   :@@       
           =@@:   .@@#       
@@ -140,15 +144,15 @@ Accumulative precision: 0.8450690138027606
           *@@+              
           -@%.              
                             
-                            
+             
+             
 No.9999
 Predict: 8
 Actual: 5
 Accumulative precision: 0.844984498449845
                                                         
                                                                                     
-                            
-                                                        
+                                                                                     
               -        ===: 
            =@@@*:=:=**@@@@@ 
           :@@@@@@@@@@@@@@@- 
@@ -172,7 +176,8 @@ No.10000
 Predict: 6
 Actual: 6
 Accumulative precision: 0.845
-                            
+                   
+                   
                             
                   =@%-      
                 -%@@@*      
