@@ -28,7 +28,7 @@ def train():
         for n in range(10):
             CPT[i][n] = normalize(CPT[i][n])
 
-# data: 1D array of 28*28=784 grayscale pixels. Each pixel value ranges from 0-255. 
+# data: 1D array of 28*28=784 greyscale pixels. Each pixel value ranges from 0-255. 
 def predict(data):
     # P(C|x1, ..., x784) = normalize P(x1|C) * ... * P(x784|C) 
     highest_prob, highest_num = -9999, None
