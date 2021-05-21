@@ -7,7 +7,7 @@ The MNIST dataset consists of 70,000 greyscale images of handwritten digits 0-9.
 Two files ```mnist_train.csv``` and ```mnist_test.csv``` from the dataset are needed to run the code. They're too large to be uploaded and can be downloaded [here](https://www.kaggle.com/oddrationale/mnist-in-csv). 
 
 ## Naive Bayes
-The [naive Bayes](https://en.wikipedia.org/wiki/Naive_Bayes_classifier) model is probably the most common Bayesian network model used in machine learning. The model is “naive” because it assumes that the attributes are conditionally independent of each other given the class. With observed attribute values (pixel values, in this case) x1, x2, ..., xn, the probxability of each class C is given by: 
+The [naive Bayes](https://en.wikipedia.org/wiki/Naive_Bayes_classifier) model is probably the most common Bayesian network model used in machine learning. The model is “naive” because it assumes that the attributes are conditionally independent of each other given the class. With observed attribute values (pixel values, in this case) x1, x2, ..., xn, the probability of each class C is given by: 
 
 <img src="screenshots/formula.png" width="350">
 
