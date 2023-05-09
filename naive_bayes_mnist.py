@@ -10,7 +10,7 @@ def normalize(d):
     return d
 
 def train():
-    data = [list(map(int, line.strip().split(","))) for line in open("mnist_train.csv").read().strip().split("\n")]
+    data = [list(map(int, line.strip().split(","))) for line in open("mnist_train.csv").read().strip().split("\n")[1:]]
     
     for i in range(len(data)):
         row = data[i]
@@ -59,7 +59,7 @@ def show_image(pixels):
     print(art)
 
 def run_test(auto=True, no_graphics=False):
-    data = [list(map(int, line.strip().split(","))) for line in open("mnist_test.csv").read().strip().split("\n")]
+    data = [list(map(int, line.strip().split(","))) for line in open("mnist_test.csv").read().strip().split("\n")[1:]]
     correct = 0
     for i in range(len(data)):
         row = data[i]
